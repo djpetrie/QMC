@@ -1,6 +1,6 @@
 # Quantum Monte Carlo
 
-This program demonstrates the effectiveness of Quantum Monte Carlo methods by determining the ground state energy of a helium atom.
+This program demonstrates the effectiveness of Quantum Monte Carlo methods in determining the ground states of small quantum systems, in this case by determining the ground state energy of a helium atom.
 
 ## Description
 
