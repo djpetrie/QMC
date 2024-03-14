@@ -10,6 +10,8 @@ In principle the ground state energy of a system can be determined by solving Sc
 
 The ground state energy will be the energy expectation value associated with the trial wave function for the system, and as such can be calculated by sampling the configuration space of the system according to its probability density function. This is achieved by taking an initially random homogeneous spherical distribution of electron pair positions, and updating the points according to a Metropolis-Hastings algorithm until they approach an energy equilibrium. Continuing to update the points this way, after initially reaching equilibrium, results in a Markov Chain of position data values which obey the expected probability distribution. This process, known as a Markov Chain Monte Carlo (MCMC), is particularly useful for the evaluation of multidimensional integrals. The average energy value for the system as determined by the electron positions in the Markov Chain gives the energy expectation value, or ground level energy.
 
+### The Helium Atom
+
 The following Hamiltonian defines the system
 
 ```math
